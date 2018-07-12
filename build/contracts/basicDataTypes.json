@@ -8,24 +8,24 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x608060405260ff6000806101000a81548160ff021916908360ff160217905550348015602a57600080fd5b5060358060386000396000f3006080604052600080fd00a165627a7a7230582028cfd19766b02a1c1e32b25b7787749c5b35e3411fde947f3ea4084d7aa5bb0d0029",
-  "deployedBytecode": "0x6080604052600080fd00a165627a7a7230582028cfd19766b02a1c1e32b25b7787749c5b35e3411fde947f3ea4084d7aa5bb0d0029",
-  "sourceMap": "27:69:1:-;;;66:3;56:13;;;;;;;;;;;;;;;;;;;;73:21;8:9:-1;5:2;;;30:1;27;20:12;5:2;73:21:1;27:69;;;;;;",
-  "deployedSourceMap": "27:69:1:-;;;;;",
+  "bytecode": "0x608060405260ff6000806101000a81548160ff021916908360ff160217905550348015602a57600080fd5b5060358060386000396000f3006080604052600080fd00a165627a7a72305820e129f70d62857e0c81d0299124b2559e58ba879a0008be014e1bbc37c81ea60b0029",
+  "deployedBytecode": "0x6080604052600080fd00a165627a7a72305820e129f70d62857e0c81d0299124b2559e58ba879a0008be014e1bbc37c81ea60b0029",
+  "sourceMap": "27:69:3:-;;;66:3;56:13;;;;;;;;;;;;;;;;;;;;73:21;8:9:-1;5:2;;;30:1;27;20:12;5:2;73:21:3;27:69;;;;;;",
+  "deployedSourceMap": "27:69:3:-;;;;;",
   "source": "pragma solidity ^0.4.22;\n\n\ncontract basicDataTypes {\n\n  uint8 b = 255;\n  constructor() { \n\n  }\n}\n",
-  "sourcePath": "C:\\Users\\Solut\\Google Drive\\tutorials\\SOLIDITY\\calculator\\contracts\\basicDataTypes.sol",
+  "sourcePath": "C:\\Users\\Solut\\Google Drive\\work2\\tutorials\\SOLIDITY\\calculator\\contracts\\basicDataTypes.sol",
   "ast": {
-    "absolutePath": "/C/Users/Solut/Google Drive/tutorials/SOLIDITY/calculator/contracts/basicDataTypes.sol",
+    "absolutePath": "/C/Users/Solut/Google Drive/work2/tutorials/SOLIDITY/calculator/contracts/basicDataTypes.sol",
     "exportedSymbols": {
       "basicDataTypes": [
-        54
+        182
       ]
     },
-    "id": 55,
+    "id": 183,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 46,
+        "id": 174,
         "literals": [
           "solidity",
           "^",
@@ -33,7 +33,7 @@
           ".22"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:1"
+        "src": "0:24:3"
       },
       {
         "baseContracts": [],
@@ -41,20 +41,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 54,
+        "id": 182,
         "linearizedBaseContracts": [
-          54
+          182
         ],
         "name": "basicDataTypes",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 49,
+            "id": 177,
             "name": "b",
             "nodeType": "VariableDeclaration",
-            "scope": 54,
-            "src": "56:13:1",
+            "scope": 182,
+            "src": "56:13:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -62,10 +62,10 @@
               "typeString": "uint8"
             },
             "typeName": {
-              "id": 47,
+              "id": 175,
               "name": "uint8",
               "nodeType": "ElementaryTypeName",
-              "src": "56:5:1",
+              "src": "56:5:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint8",
                 "typeString": "uint8"
@@ -74,14 +74,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "323535",
-              "id": 48,
+              "id": 176,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "66:3:1",
+              "src": "66:3:3",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_255_by_1",
@@ -93,13 +93,13 @@
           },
           {
             "body": {
-              "id": 52,
+              "id": 180,
               "nodeType": "Block",
-              "src": "87:7:1",
+              "src": "87:7:3",
               "statements": []
             },
             "documentation": null,
-            "id": 53,
+            "id": 181,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -107,43 +107,43 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 50,
+              "id": 178,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "84:2:1"
+              "src": "84:2:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 51,
+              "id": 179,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "87:0:1"
+              "src": "87:0:3"
             },
-            "scope": 54,
-            "src": "73:21:1",
+            "scope": 182,
+            "src": "73:21:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 55,
-        "src": "27:69:1"
+        "scope": 183,
+        "src": "27:69:3"
       }
     ],
-    "src": "0:97:1"
+    "src": "0:97:3"
   },
   "legacyAST": {
-    "absolutePath": "/C/Users/Solut/Google Drive/tutorials/SOLIDITY/calculator/contracts/basicDataTypes.sol",
+    "absolutePath": "/C/Users/Solut/Google Drive/work2/tutorials/SOLIDITY/calculator/contracts/basicDataTypes.sol",
     "exportedSymbols": {
       "basicDataTypes": [
-        54
+        182
       ]
     },
-    "id": 55,
+    "id": 183,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 46,
+        "id": 174,
         "literals": [
           "solidity",
           "^",
@@ -151,7 +151,7 @@
           ".22"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:24:1"
+        "src": "0:24:3"
       },
       {
         "baseContracts": [],
@@ -159,20 +159,20 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 54,
+        "id": 182,
         "linearizedBaseContracts": [
-          54
+          182
         ],
         "name": "basicDataTypes",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "constant": false,
-            "id": 49,
+            "id": 177,
             "name": "b",
             "nodeType": "VariableDeclaration",
-            "scope": 54,
-            "src": "56:13:1",
+            "scope": 182,
+            "src": "56:13:3",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -180,10 +180,10 @@
               "typeString": "uint8"
             },
             "typeName": {
-              "id": 47,
+              "id": 175,
               "name": "uint8",
               "nodeType": "ElementaryTypeName",
-              "src": "56:5:1",
+              "src": "56:5:3",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint8",
                 "typeString": "uint8"
@@ -192,14 +192,14 @@
             "value": {
               "argumentTypes": null,
               "hexValue": "323535",
-              "id": 48,
+              "id": 176,
               "isConstant": false,
               "isLValue": false,
               "isPure": true,
               "kind": "number",
               "lValueRequested": false,
               "nodeType": "Literal",
-              "src": "66:3:1",
+              "src": "66:3:3",
               "subdenomination": null,
               "typeDescriptions": {
                 "typeIdentifier": "t_rational_255_by_1",
@@ -211,13 +211,13 @@
           },
           {
             "body": {
-              "id": 52,
+              "id": 180,
               "nodeType": "Block",
-              "src": "87:7:1",
+              "src": "87:7:3",
               "statements": []
             },
             "documentation": null,
-            "id": 53,
+            "id": 181,
             "implemented": true,
             "isConstructor": true,
             "isDeclaredConst": false,
@@ -225,30 +225,30 @@
             "name": "",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 50,
+              "id": 178,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "84:2:1"
+              "src": "84:2:3"
             },
             "payable": false,
             "returnParameters": {
-              "id": 51,
+              "id": 179,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "87:0:1"
+              "src": "87:0:3"
             },
-            "scope": 54,
-            "src": "73:21:1",
+            "scope": 182,
+            "src": "73:21:3",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 55,
-        "src": "27:69:1"
+        "scope": 183,
+        "src": "27:69:3"
       }
     ],
-    "src": "0:97:1"
+    "src": "0:97:3"
   },
   "compiler": {
     "name": "solc",
@@ -256,5 +256,5 @@
   },
   "networks": {},
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-07-10T12:51:25.466Z"
+  "updatedAt": "2018-07-12T07:57:37.035Z"
 }
